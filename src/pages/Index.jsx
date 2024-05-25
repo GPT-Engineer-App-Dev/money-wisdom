@@ -5,12 +5,12 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Header */}
-      <Box bg="brand.900" color="white" py={4} px={8}>
+      <Box bg="#003366" color="white" py={4} px={8}>
         <Heading as="h1" size="xl">Financial Times</Heading>
       </Box>
 
       {/* Navigation Bar */}
-      <Flex bg="brand.800" color="white" py={2} px={8} align="center">
+      <Flex bg="#004080" color="white" py={2} px={8} align="center">
         <HStack spacing={8}>
           <Link href="#top-news" fontSize="lg">Top News</Link>
           <Link href="#market-data" fontSize="lg">Market Data</Link>
